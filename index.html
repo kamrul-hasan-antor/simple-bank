@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Baap ar Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl font-semibold text-center mt-6 text-violet-400">
+        Welcome to your
+        <span class="font-bold text-violet-800">Baap ar Bank</span>!!!
+      </h1>
+    </header>
+    <main>
+      <section
+        class="bg-blue-50 w-8/12 mx-auto p-10 mt-14 rounded-md border-[1px] border-sky-600"
+      >
+        <h3 class="text-3xl mb-4">Pleas Login</h3>
+        <div>
+          <input
+            class="w-full mb-3 p-2 rounded-sm border-[1px] border-violet-600 focus:outline-none focus:focus:border-sky-500"
+            type="email"
+            name=""
+            id="user_email"
+            placeholder="Your Email Address"
+          />
+          <input
+            class="w-full mb-3 p-2 rounded-sm border-[1px] border-violet-600 focus:outline-none focus:focus:border-sky-500"
+            type="password"
+            name=""
+            id="user_password"
+            placeholder="Your Password"
+          />
+          <button
+            class="bg-violet-600 text-white px-4 py-2 rounded-sm hover:bg-sky-500"
+            id="login_btn"
+          >
+            Submit
+          </button>
+        </div>
+      </section>
+    </main>
+    <script src="login.js"></script>
+  </body>
+</html>
